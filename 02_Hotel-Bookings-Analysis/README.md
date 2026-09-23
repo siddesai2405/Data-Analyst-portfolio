@@ -71,7 +71,15 @@
 
 👨‍💻 Author
     Siddhesh Desai
-    📊 Aspiring Data Analyst
+    🎓 Computer Science & Engineering 
+    📊 Aspiring Data Analyst 
+    🐍 Python | SQL | Pandas | NumPy 
+    📈 Data Analysis | EDA | Data Visualization 
+    📊 Power BI
+
+🔗 Connect With Me 
+    💼 LinkedIn: Siddhesh Desai 
+    🐙 GitHub: siddesai2405
 
 
 
