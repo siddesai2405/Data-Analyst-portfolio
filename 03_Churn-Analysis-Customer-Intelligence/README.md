@@ -3,10 +3,10 @@
 
 📌 Project Overview
   Customer churn is a major challenge for subscription-based businesses.
-  This project analyzes an OTT-style customer dataset by combining **customer demographics, subscription information, and customer-support interactions** to answer three important questions:
-  > 👤 Who is churning?  
-  > 🔍 Why are customers churning?  
-  The objective is to transform raw customer data into **actionable customer intelligence** that can support retention and revenue-protection strategies.
+  This project analyzes an OTT-style customer dataset by combining customer demographics, subscription information, and customer-support interactions to answer three important questions:
+> 👤 Who is churning?  
+> 🔍 Why are customers churning?  
+The objective is to transform raw customer data into **actionable customer intelligence** that can support retention and revenue-protection strategies.
 
 🛠️ Tech Stack
   | Category | Technologies |
