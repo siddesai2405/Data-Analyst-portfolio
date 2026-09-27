@@ -116,10 +116,15 @@
   jupyter notebook
   Open churn_analysis.ipynb and run the cells.
 
-👨‍💻 Author
-  Siddhesh Desai
-  📊 Aspiring Data Analyst | Python | SQL | Pandas | Power BI
+👨‍💻 Author Siddhesh Desai 
+   🎓 Computer Science & Engineering 
+   📊 Aspiring Data Analyst 
+   🐍 Python | SQL | Pandas | NumPy 
+   📈 Data Analysis | EDA | Data Visualization 
+   📊 Power BI
 
-🐙 GitHub
+🔗 Connect With Me 
+   💼 LinkedIn: Siddhesh Desai 
+   🐙 GitHub: siddesai2405
 
 📊 Customer Data → Churn Intelligence → Retention Strategy 🚀
