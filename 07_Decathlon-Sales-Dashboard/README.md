@@ -1,12 +1,16 @@
 🏅 Decathlon Retail Performance Dashboard | Sales & Profitability Analysis
-	An interactive Power BI dashboard designed to analyze Decathlon's retail sales, profitability, product performance, and regional contribution through business-focused KPIs and visualizations.
+
+An interactive Power BI dashboard designed to analyze Decathlon's retail sales, profitability, product performance, and regional contribution through business-focused KPIs and visualizations.
 
 📌 Project Overview
-	This project focuses on building an interactive Retail Performance Dashboard using Power BI. It helps retail managers monitor sales performance, understand profitability, compare current-year results with the previous year, and 	explore performance across sports, products, brands, and regions.
-	The dashboard provides a consolidated view of important retail metrics, allowing users to investigate business performance through interactive filters.
+
+This project focuses on building an interactive Retail Performance Dashboard using Power BI. It helps retail managers monitor sales performance, understand profitability, compare current-year results with the previous year, and 	explore performance across sports, products, brands, and regions.
+
+The dashboard provides a consolidated view of important retail metrics, allowing users to investigate business performance through interactive filters.
 
 🧠 My Thinking Process
-	Instead of looking at sales numbers individually, I wanted to understand the overall retail business performance.
+	
+Instead of looking at sales numbers individually, I wanted to understand the overall retail business performance.
 I focused on questions such as:
 Are sales and gross profit improving compared with the previous year?
 Which sports contribute the most to total sales?
@@ -16,24 +20,35 @@ How are orders, units sold, and average order value changing?
 The goal was to convert raw retail data into meaningful business insights that support better decision-making.
 
 🎯 Business Problem
-	Retail management needs a centralized dashboard to monitor sales, profitability, order activity, and product performance.
+Retail management needs a centralized dashboard to monitor sales, profitability, order activity, and product performance.
 Without a consolidated view, it becomes difficult to compare performance across different periods, identify strong-performing segments, and investigate changes in business results.
 This dashboard brings these metrics together in one interactive Power BI report.
 
 ❓ Business Questions Answered
-	What are the current Year-to-Date (YTD) net sales and gross profit?
+
+What are the current Year-to-Date (YTD) net sales and gross profit?
+
 How do current sales compare with the Previous Year-to-Date (PYTD)?
+
 Is gross margin improving compared with the previous year?
+
 How have units sold and total orders changed?
+
 What is the average order value?
+
 Which months show sales growth or decline?
+
 Which sports generate the highest net sales?
+
 Which product types combine strong sales with good gross margins?
+
 How much does each region contribute to total sales?
+
 How does performance change when different filters are applied?
 
 📊 Key Dashboard Highlights
-	The dashboard includes six major KPI cards:
+
+The dashboard includes six major KPI cards:
 💰 Net Sales YTD: ₹55.3M
 📈 Net Gross Profit YTD: ₹25.5M
 📊 Gross Margin YTD: 46.1%
@@ -43,7 +58,8 @@ How does performance change when different filters are applied?
 These are the values displayed in the supplied dashboard screenshot, not independently recalculated figures.
 
 Key Comparisons
-	The dashboard compares YTD performance with the same period in the previous year (PYTD).
+
+The dashboard compares YTD performance with the same period in the previous year (PYTD).
 Net Sales increased by 24.3%.
 Gross Profit increased by 25.1%.
 Gross Margin improved by 0.3 percentage points.
@@ -52,14 +68,16 @@ Net Orders increased by 23.0%.
 Average Order Value increased by 1.1%.
 
 📉 Dashboard Visualizations
-	Monthly Net Sales: Compares current-year monthly sales with the equivalent previous-year period.
+
+Monthly Net Sales: Compares current-year monthly sales with the equivalent previous-year period.
 Net Sales YTD by Sport: Highlights sales contribution across different sports.
 Product Type Performance: Uses a scatter chart to explore the relationship between net sales and gross margin.
 Net Sales YTD by Region: Shows the sales contribution of different regions.
 Sales Growth by Brand: Included as a business requirement for comparing brand-level sales growth.
 
 📂 Data Source
-	The project uses three Excel workbooks:
+
+The project uses three Excel workbooks:
 File
 Description
 sales.xlsx
@@ -75,14 +93,16 @@ Store: 30 data rows and 8 columns
 The sales workbook contains transaction details such as Order ID, Purchase Date, Product ID, Store ID, Payment Method, Promotion, Quantity, Returns, Net Sales, Net COGS, and Gross Profit.
 
 🛠️ Tools and Tech Stack
-	Microsoft Power BI: Dashboard development and data visualization
+
+Microsoft Power BI: Dashboard development and data visualization
 Microsoft Excel: Data storage and preparation
 Power Query: Data transformation and cleaning
 DAX: KPI calculations and time-based comparisons
 Data Modeling: Relationships between fact and dimension tables
 
 💡 Core Concepts Demonstrated
-	Data modeling using fact and dimension tables
+
+Data modeling using fact and dimension tables
 Primary keys and foreign key relationships
 Date table creation
 Year-to-Date (YTD) and Previous Year-to-Date (PYTD) analysis
@@ -96,7 +116,8 @@ Product and regional segmentation
 Dashboard design and business reporting
 
 🔄 Project Workflow
-	Data Collection: Imported sales, products, and store datasets from Excel.
+
+Data Collection: Imported sales, products, and store datasets from Excel.
 Data Understanding: Reviewed the structure, columns, and relationships between datasets.
 Data Modeling: Identified the sales transaction table and product and store dimension tables.
 Date Table Creation: Prepared a continuous calendar table for time-based analysis.
@@ -106,7 +127,8 @@ Dashboard Development: Created KPI cards, charts, slicers, and report interactio
 Validation: Defined reconciliation and filter-testing requirements to check the accuracy of the report.
 
 📊 Dashboard Structure
-	The dashboard contains:
+	
+The dashboard contains:
 A reporting-period header showing YTD through 15 September and comparison with the same period in 2025.
 Six KPI cards for sales, profit, margin, units, orders, and AOV.
 Monthly sales comparison chart.
@@ -117,7 +139,8 @@ Interactive filter panel.
 Reset Filters button.
 
 🎛️ Available Filters
-	State
+
+State
 Sport
 Colour
 Payment Method
@@ -151,7 +174,8 @@ Decathlon-Sales-Dashboard/
 The Power BI .pbix file is maintained separately in the project repository.
 
 🚀 How to Reproduce
-	Download or clone this repository.
+
+Download or clone this repository.
 Open the Power BI project file (.pbix) using Microsoft Power BI Desktop.
 If required, update the Excel source file paths.
 Refresh the datasets.
