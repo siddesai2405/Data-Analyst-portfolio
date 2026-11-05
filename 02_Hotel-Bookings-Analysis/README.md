@@ -1,19 +1,16 @@
 🏨 Hotel Bookings Analysis
-
-	> An Exploratory Data Analysis (EDA) project using Python to understand hotel booking patterns, customer 	behavior, pricing trends, and hotel performance.
+		
+An Exploratory Data Analysis (EDA) project using Python to understand hotel booking patterns, customer 	behavior, pricing trends, and hotel performance.
 
 👨‍💻 Project Overview
 
 This project focuses on analyzing hotel booking data to explore booking patterns, understand customer behavior, compare hotel performance, and examine pricing trends.
-
 The objective was to transform raw hotel booking data into meaningful insights through data cleaning, preprocessing, exploratory data analysis, and statistical visualization using Python.
-
 The analysis covers two hotel categories: City Hotel and Resort Hotel, with a focus on booking distribution, lead time, Average Daily Rate (ADR), and relationships between numerical variables.
 
 🎯 Business Problem
-
+	
 The hospitality industry needs to understand customer booking behavior, hotel demand, and pricing patterns to make better business decisions.
-
 This analysis explores hotel booking data to identify patterns in booking distribution, customer arrival behavior, and room pricing.
 
 Business Questions Answered
@@ -153,7 +150,6 @@ non_outliers = df[
     (df['adr'] > lower) &
     (df['adr'] < upper)
 ]
-```
 
 💼 Business Value
 
@@ -175,8 +171,7 @@ The analysis demonstrates how hotel booking data can support hospitality busines
 5. Run the notebook cells sequentially to reproduce the analysis and visualizations.
 
 Install Required Libraries
-
-	pip install pandas numpy matplotlib seaborn jupyter
+		pip install pandas numpy matplotlib seaborn jupyter
 
 
 📁 Project Structure
@@ -189,14 +184,12 @@ DA_0 Hotel-Bookings-Analysis/
 ├── correlation Heatmap.png
 └── Line chart.png
 
-Dashboard
 
 👨‍💻 Author
 
 Siddhesh Desai
-
+		
 📊 Aspiring Data Analyst | Python | SQL | Excel | Power BI
-
-🐙 [GitHub Profile](https://github.com/siddesai2405)
+🐙 [GitHub Profile] (https://github.com/siddesai2405)
 
 🏨 Raw Hotel Data → Data Cleaning → EDA → Visualization → Business Insights 📊
