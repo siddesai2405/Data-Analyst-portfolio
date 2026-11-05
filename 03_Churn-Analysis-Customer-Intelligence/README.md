@@ -1,6 +1,6 @@
 📉 Churn Analysis and Customer Intelligence
 
-	> An end-to-end customer analytics project using Python, SQL, SQLite, and data visualization to identify customer churn patterns, subscription risks, and revenue impact.
+An end-to-end customer analytics project using Python, SQL, SQLite, and data visualization to identify customer churn patterns, subscription risks, and revenue impact.
 
 👨‍💻 Project Overview
 
