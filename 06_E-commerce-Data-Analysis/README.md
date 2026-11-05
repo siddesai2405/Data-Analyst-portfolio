@@ -16,6 +16,7 @@ E-commerce businesses need to understand which products and categories contribut
 This project organizes Amazon product information into an interactive dashboard to support product performance analysis and business reporting.
 
 Business Questions Answered
+
 💰 What are the Year-to-Date (YTD) and Quarter-to-Date (QTD) sales?
 
 📅 How do sales change across different months?
