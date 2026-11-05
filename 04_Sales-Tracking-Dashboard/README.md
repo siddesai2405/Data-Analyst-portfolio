@@ -1,12 +1,11 @@
 📊 Sales Tracking Dashboard
 
-	> An end-to-end sales analytics project integrating Python, SQL, Excel, and Power BI to transform raw sales data into meaningful business insights.
+An end-to-end sales analytics project integrating Python, SQL, Excel, and Power BI to transform raw sales data into meaningful business insights.
 
 
 👨‍💻 Project Overview
 
 This project focuses on analyzing sales data through an integrated workflow involving Python, Excel, SQL, and Power BI.
-
 The objective is to prepare raw sales data, perform data cleaning and feature engineering using Python, store the processed data in a MySQL database, and present sales information through an interactive Power BI dashboard.
 
 The project demonstrates how multiple tools can work together in a connected data analytics workflow, from raw data preparation to business intelligence reporting.
@@ -207,7 +206,7 @@ This project demonstrates how businesses can use structured sales data to suppor
 
 Install Required Libraries
 
-	pip install pandas openpyxl pymysql sqlalchemy jupyter
+pip install pandas openpyxl pymysql sqlalchemy jupyter
 
 
 📁 Project Structure
