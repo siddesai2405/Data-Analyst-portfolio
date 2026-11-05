@@ -1,32 +1,33 @@
 🚚 Supply Chain Analysis & Late Delivery Prediction
-	An end-to-end data analytics and machine learning project using Python to analyze supply chain operations, investigate delivery delays, identify operational bottlenecks, and predict late delivery risk.
+
+An end-to-end data analytics and machine learning project using Python to analyze supply chain operations, investigate delivery delays, identify operational bottlenecks, and predict late delivery risk.
 
 👨‍💻 Project Overview
 
-	This project focuses on analyzing supply chain and order delivery data to understand delivery performance, profitability, operational delays, and potential causes of late deliveries.
-	The objective is to transform raw supply chain data into meaningful business insights through data cleaning, feature engineering, exploratory data analysis, statistical visualization, and machine learning.
-	The project also applies a Random Forest Classification model to predict late delivery risk using order, product, customer, and shipping-related features.
+This project focuses on analyzing supply chain and order delivery data to understand delivery performance, profitability, operational delays, and potential causes of late deliveries.
+The objective is to transform raw supply chain data into meaningful business insights through data cleaning, feature engineering, exploratory data analysis, statistical visualization, and machine learning.
+The project also applies a Random Forest Classification model to predict late delivery risk using order, product, customer, and shipping-related features.
 
 🎯 Business Problem
 
-	Supply chain operations depend on timely order processing and delivery. Late deliveries can affect customer satisfaction, operational efficiency, and business profitability.
-	The business needs to understand where delivery delays occur, which operational factors contribute to them, how delays affect profitability, and whether machine learning can help identify orders at risk of late delivery.
+Supply chain operations depend on timely order processing and delivery. Late deliveries can affect customer satisfaction, operational efficiency, and business profitability.
+The business needs to understand where delivery delays occur, which operational factors contribute to them, how delays affect profitability, and whether machine learning can help identify orders at risk of late delivery.
 
 Business Questions Answered
 
-	🚚 What percentage of orders are delivered late?
-	⏱️ How much time is taken to process and deliver orders?
-	📦 Which product categories, departments, and shipping modes experience higher delivery delays?
-	🌍 Which regions have higher late delivery percentages?
-	🔍 What are the major operational factors associated with late deliveries?
-	💰 How does delivery delay relate to order profitability?
-	📅 How do delivery delays vary by month, day, and hour?
-	🤖 Can machine learning predict late delivery risk using order and shipping information?
+🚚 What percentage of orders are delivered late?
+⏱️ How much time is taken to process and deliver orders?
+📦 Which product categories, departments, and shipping modes experience higher delivery delays?
+🌍 Which regions have higher late delivery percentages?
+🔍 What are the major operational factors associated with late deliveries?
+💰 How does delivery delay relate to order profitability?
+📅 How do delivery delays vary by month, day, and hour?
+🤖 Can machine learning predict late delivery risk using order and shipping information?
 
 📊 Key Findings
 
-	Original Dataset: 180,519 records and 53 columns.
-	Cleaned Dataset: 172,765 records and 20 columns after removing irrelevant columns and canceled shipments.
+Original Dataset: 180,519 records and 53 columns.
+Cleaned Dataset: 172,765 records and 20 columns after removing irrelevant columns and canceled shipments.
 Duplicate Records: No duplicate records were identified in the original dataset.
 Late Deliveries: 94,523 orders were classified as delayed.
 Late Delivery Percentage: 54.71%.
@@ -38,10 +39,11 @@ Machine Learning Accuracy: 74% using the Random Forest Classifier.
 
 📂 Data Source
 
-	The project uses the DataCo Supply Chain Dataset, containing information about customer orders, products, sales, shipping, delivery performance, and profitability.
+The project uses the DataCo Supply Chain Dataset, containing information about customer orders, products, sales, shipping, delivery performance, and profitability.
 
 Dataset Information
-	Original Records: 180,519
+
+Original Records: 180,519
 Original Columns: 53
 Cleaned Records: 172,765
 Cleaned Columns: 20
@@ -65,7 +67,8 @@ shipping date (DateOrders) — Shipping date
 
 🛠️ Tools and Tech Stack
 
-	Tool
+Tool
+
 Purpose in this project
 Python
 Data analysis and machine learning
@@ -86,7 +89,7 @@ Interactive development environment
 
 🧠 Core Concepts Demonstrated
 
-	Data Cleaning: Removing irrelevant and redundant columns, excluding canceled shipments, and converting date columns.
+Data Cleaning: Removing irrelevant and redundant columns, excluding canceled shipments, and converting date columns.
 Feature Engineering: Creating order processing time, delivery delay, delayed-order flags, and time-based features.
 Exploratory Data Analysis: Exploring order distribution, delivery performance, profitability, and operational patterns.
 Profitability Analysis: Categorizing orders into Profit, Loss, and Break-even groups.
@@ -100,7 +103,7 @@ Model Evaluation: Measuring accuracy, precision, recall, and F1-score.
 
 🔄 Project Workflow
 
-	Step 1 — Data Loading and Initial Exploration
+Step 1 — Data Loading and Initial Exploration
 Imported the DataCo Supply Chain dataset using Pandas.
 Loaded the CSV using Latin-1 encoding.
 Inspected dataset dimensions and column names.
@@ -151,7 +154,8 @@ Trained a Random Forest Classification model.
 Evaluated model performance using classification metrics.
 
 📈 Analysis and Visualizations
-	The project includes the following analytical visualizations:
+
+The project includes the following analytical visualizations:
 🥧 Profitability Distribution: Percentage distribution of profitable, loss-making, and break-even orders.
 
 📊 Profitability vs Delay: Examines average profit and total profit across delivery delay durations.
@@ -206,7 +210,7 @@ Order Month
 Order Hour
 
 Model Evaluation
-	📊 Random Forest Classification Results
+📊 Random Forest Classification Results
 Evaluation Metric
 Score
 Accuracy
@@ -232,7 +236,7 @@ F1-Score
 The training dataset was balanced using SMOTE before fitting the Random Forest model.
 
 💼 Business Value
-	This analysis demonstrates how data analytics and machine learning can support supply chain operations through:
+This analysis demonstrates how data analytics and machine learning can support supply chain operations through:
 🚚 Monitoring late delivery and on-time delivery performance.
 
 🔍 Identifying operational bottlenecks.
@@ -275,6 +279,6 @@ Siddhesh Desai
 
 📊 Aspiring Data Analyst | Python | SQL | Excel | Power BI
 
-🐙 GitHub Profile
+🐙 [GitHub Profile] (https://github.com/siddesai2405)
 
 🚚 Raw Supply Chain Data → Data Cleaning → EDA → Delivery Analysis → Machine Learning → Business Insights 📊
